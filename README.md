@@ -5,7 +5,7 @@ This module provides three function, **get** **set** and **unset**, to access co
 Retrieve value of **name**.
 ### set(name, value, options)
 This function accepts three arguments:
-1. **name** (String required) name of cookie you set
+1. **name**(String required) name of cookie you set
 2. **value**(String required) value of cookie you set
 3. **options**(Object) an object describing options of cookie you set
    >Expected propertys of this object is follow:
