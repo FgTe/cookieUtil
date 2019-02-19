@@ -8,7 +8,7 @@ This function accepts three arguments:
 1. **name** (required string)  name of cookie you set
 2. **value**(required string) value of cookie you set
 3. **options**(object) an object describing options of cookie you set
-   Expected propertys of this object is follow:
+   >Expected propertys of this object is follow:
    ```
    {
      expires
