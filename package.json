@@ -1,0 +1,22 @@
+{
+  "name": "cookieutil",
+  "version": "1.0.0",
+  "description": "A cookie modification helper",
+  "main": "cookieUtil.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FgTe/cookieUtil.git"
+  },
+  "keywords": [
+    "cookie"
+  ],
+  "author": "FgTe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FgTe/cookieUtil/issues"
+  },
+  "homepage": "https://github.com/FgTe/cookieUtil#readme"
+}
