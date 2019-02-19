@@ -16,7 +16,7 @@ let cookieUtil = {
             if ( options.path ) 
                 cookie += '; path=' + options.path;
             if ( options.domain )
-                cookie += '; domain=' + options.sdomain;
+                cookie += '; domain=' + options.domain;
             if ( options.maxAge )
                 cookie += '; Max-Age=' + options.maxAge;
             if ( options.secure )
