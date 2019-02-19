@@ -8,18 +8,18 @@ let cookieUtil = {
             return null;
         }
     },
-    set (name, value, option) {
+    set (name, value, options) {
         let cookie = name + '=' + encodeURIComponent(value);
-        if ( option ) {
-            if ( option.expires instanceof Date ) 
-                cookie += '; expires=' + option.expires.toGMTString();
-            if ( option.path ) 
-                cookie += '; path=' + option.path;
-            if ( option.domain )
-                cookie += '; domain=' + option.domain;
-            if ( option.maxAge )
-                cookie += '; Max-Age='
-            if ( option.secure )
+        if ( options ) {
+            if ( options.expires instanceof Date ) 
+                cookie += '; expires=' + options.expires.toGMTString();
+            if ( options.path ) 
+                cookie += '; path=' + options.path;
+            if ( options.domain )
+                cookie += '; domain=' + options.sdomain;
+            if ( options.maxAge )
+                cookie += '; Max-Age=' + options.maxAge;
+            if ( options.secure )
                 cookie += '; secure';
         }
         document.cookie = cookie;
